@@ -1,0 +1,56 @@
+body{
+font-family: Arial, sans-serif;
+margin:40px;
+transition: background 0.3s;
+}
+
+nav{
+margin-bottom:30px;
+}
+
+nav a{
+margin-right:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.button{
+padding:10px 20px;
+background:#4ea1ff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.hero{
+text-align:center;
+margin-top:120px;
+}
+
+.project-card{
+border:1px solid #333;
+padding:20px;
+margin-bottom:20px;
+border-radius:8px;
+transition: transform .2s;
+}
+
+.project-card:hover{
+transform:translateY(-6px);
+}
+
+.project-img{
+width:100%;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+.dark{
+background:#111;
+color:white;
+}
+
+.light{
+background:white;
+color:black;
+}

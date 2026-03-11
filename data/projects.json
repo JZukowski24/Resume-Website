@@ -1,0 +1,9 @@
+[
+{
+"title":"Satellite Tracker",
+"description":"Real time satellite visualization",
+"tech":["JavaScript","APIs"],
+"github":"https://github.com/yourusername/satellite-tracker",
+"image":"images/satellite.png"
+}
+]
