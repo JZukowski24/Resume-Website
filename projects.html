@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" href="css/styles.css">
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="js/loadProjects.js" defer></script>
 <script src="js/themeToggle.js"></script>
 
@@ -36,6 +37,28 @@
 </div>
 
 </nav>
+
+<div class="filter-bar">
+
+<button onclick="filterProjects('all')">All</button>
+
+<button onclick="filterProjects('embedded')">
+Embedded Systems
+</button>
+
+<button onclick="filterProjects('digital')">
+Digital Design
+</button>
+
+<button onclick="filterProjects('aerospace')">
+Aerospace
+</button>
+
+<button onclick="filterProjects('software')">
+Software
+</button>
+
+</div>
 
 <h1>Projects</h1>
 

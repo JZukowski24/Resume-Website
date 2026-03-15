@@ -27,16 +27,17 @@ text-align:center;
 margin-top:120px;
 }
 
-.project-card{
-border:1px solid #333;
+.project-card {
+border:1px solid #444;
 padding:20px;
-margin-bottom:20px;
+margin-top:20px;
 border-radius:8px;
-transition: transform .2s;
+cursor:pointer;
+transition:transform 0.2s ease;
 }
 
-.project-card:hover{
-transform:translateY(-6px);
+.project-card:hover {
+transform:scale(1.02);
 }
 
 .project-img{
@@ -53,4 +54,56 @@ color:white;
 .light{
 background:white;
 color:black;
+}
+
+.leadership-card{
+border:1px solid #444;
+padding:20px;
+margin-top:20px;
+border-radius:8px;
+}
+
+.filter-bar{
+margin-top:30px;
+margin-bottom:30px;
+}
+
+.filter-bar button{
+margin-right:10px;
+padding:8px 16px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.filter-bar button:hover{
+background:#444;
+}
+
+.project-header{
+margin-bottom:30px;
+}
+
+.project-description{
+font-size:18px;
+opacity:0.85;
+margin-top:10px;
+}
+
+.project-body{
+margin-top:20px;
+line-height:1.6;
+}
+
+.tag-container{
+margin-top:15px;
+}
+
+.tag{
+display:inline-block;
+background:#333;
+padding:5px 10px;
+border-radius:6px;
+font-size:13px;
+margin-right:8px;
 }
